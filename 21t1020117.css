@@ -1,0 +1,293 @@
+body
+{
+margin: 0;
+padding: 0;
+width: 100%;
+box-sizing: border-box;
+}
+
+.main
+{
+width: 1500px;
+margin: auto;
+position: relative;
+top: -520px;
+}
+.menu
+{
+background-size: 100% 100%; 
+height: 250px;
+width: 100%;
+position: relative;
+left: 0;
+
+
+}
+.background-menu img
+{
+    filter: blur(3px);
+    width:100%;
+    height: 260px;
+    position: relative;
+   
+
+}
+.menutop
+{
+background-color: black;
+height: 60px;
+width: 100%;
+/* position: fixed; */
+ position:  absolute;  
+top: 0  ;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    
+}
+.container ul
+{
+    width: 85%;
+    margin: 0 auto;
+
+}
+.container ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding-right: 60px;
+
+}
+.container ul li a
+{
+    text-decoration: none;
+ 
+}
+.container ul li p
+{
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(210, 180, 140);
+}
+.container ul li a p
+{
+    height: 40px;
+}
+
+.container ul li a p:hover
+{
+    border-bottom:3px solid rgb(21, 143, 231) ;
+
+}
+.container ul li a img
+{
+ vertical-align: middle;
+}
+.menudown
+{
+    position: relative;
+    top: 85px;
+    margin: 0;
+    left: 140px;
+    
+}
+.ts
+{ 
+    border: 3px solid rgb(58, 56, 56); 
+    width: 1180px;
+    height: 130px;
+    /* clip-path: polygon(); */
+    /* background-color: transparent; */
+    position: relative;
+    top: -125px;
+    left: 15px;
+}
+
+.topnews
+{
+    display: flex;
+    height: 257px;
+    position: relative;
+ 
+}
+.background-topnews
+{
+    background-image: url(img/logo\(4\).jpg);
+    width: 100%;
+    height: 257px;
+    position:relative;
+}
+.topnews a
+{
+    width: 330px;
+    height: 128px;
+    background-color:rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+     left: 20px; 
+    border: 1.5px solid rgb(89, 87, 87); 
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 10px 1px rgb(89, 87, 87);
+    text-decoration: none;
+}
+.topnews a div img
+{
+    width: 140px;
+    height: 95px;
+    position: relative;
+    top: 16.5px;
+    left: -15px;
+}
+
+.news
+{
+    /* background-color: transparent; */
+    position: relative;
+    font-size: 10px;
+    top: -90px;
+    left: 140px;
+    width: 190px;
+    height: 95px;
+    line-height: 1;
+    color: black;
+}
+.news p
+{
+    color: rgb(19, 152, 230);
+    font-size: 13px;
+    
+}
+.downnews
+{  
+}
+.search input
+{
+    width: 400px;
+    height: 35px;
+    position: relative;
+    top: 50px;
+    left: 550px;
+    text-align: center;
+    border: 1px solid burlywood;
+}
+.search i
+{
+    position: relative;
+    top: 52px;
+    left: 590px;
+    z-index: 1;
+}
+.left
+{
+margin-top: 100px;
+width: 750px;
+margin-left: 150px;
+}
+.left a
+{
+    text-decoration: none;
+    width: 500px;  
+}
+.imgleft a img
+{ 
+    width: 312px;
+    display: block;
+    margin-bottom: 60px;
+
+}
+.viennews
+{
+    display: block;
+    position: absolute;
+}
+.viennews div
+{
+
+    border: 1.5px solid rgb(186, 185, 185); 
+    width: 285px;
+    height: 220px;
+    /*clip-path: polygon();*/
+    /* background-color: transparent; */
+    position: relative;
+     top: -2670px; 
+    left: 10px;
+    margin-bottom: 43px;
+    /* grid-template-rows: 265px 265px 265px 265px 265px 265px 265px 265px 265px ; */
+
+
+}
+.tintuc
+{
+display:grid;
+width: 440px;
+position: relative;
+left: 350px; 
+top: -2670px;
+grid-template-rows: 267px 267px 267px 265px 267px 267px 267px 267px 267px ; 
+font-size: 14px;
+
+
+}
+.tintuc a
+{
+    width: 440px;
+    line-height: 1;
+
+}
+.tintuc a h2
+{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    color: black;
+    line-height: 1;
+
+}
+.tintuc a p
+{
+    opacity: 0.65;
+    color: black;
+}
+.right
+{
+    width: 300px;
+    position: relative;
+     top: -5270px;  
+     left: 1000px;
+    border-left: 1px solid black;
+
+}
+
+.right a
+{
+   text-decoration: none; 
+   width: 231px;
+   height: 98px;
+   position: relative;
+   left:70px;
+   top: -30px;
+}
+
+.right a p
+{
+    position: relative;
+    top: 45px;
+    left: 5px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Arial;
+   
+}
+.box
+{
+   width: 231px;
+   height: 98px;
+ 
+
+}
+
